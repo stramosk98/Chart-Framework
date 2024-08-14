@@ -2,6 +2,7 @@
 *.class
 
 /bin
+/.settings
 
 # Log file
 *.log
