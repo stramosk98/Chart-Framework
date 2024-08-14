@@ -12,7 +12,7 @@ public class LineChartStrategy implements ChartStrategy {
 	}
 	
 	@Override
-	public String getElement() {
+	public String getElement(Chart chart) {
 		return "curve_chart";
 	}
 

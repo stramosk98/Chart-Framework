@@ -12,7 +12,7 @@ public class AreaChartStrategy implements ChartStrategy {
 	}
 	
 	@Override
-	public String getElement() {
+	public String getElement(Chart chart) {
 		return "chart_div";
 	}
 

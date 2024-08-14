@@ -12,7 +12,10 @@ public class GeoChartStrategy implements ChartStrategy {
 	}
 	
 	@Override
-	public String getElement() {
+	public String getElement(Chart chart) {
+		if (chart.getColumns().length > 2) {
+			return "chart_div";
+		}
 		return "regions_div";
 	}
 

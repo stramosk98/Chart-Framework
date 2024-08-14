@@ -12,7 +12,10 @@ public class ColumnChartStrategy implements ChartStrategy {
 	}
 	
 	@Override
-	public String getElement() {
+	public String getElement(Chart chart) {
+		if (chart.getColumns().length > 2) {
+			return "columnchart_material";
+		}
 		return "columnchart_values";
 	}
 
