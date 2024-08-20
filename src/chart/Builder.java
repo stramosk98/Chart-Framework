@@ -1,6 +1,18 @@
 package chart;
 
+/**
+ * Classe responsável por montar o título das colunas e seus valores
+ * 
+ * @author Antonio S. Stramosk
+ */
 public class Builder {
+	
+	/**
+	 * Retorna uma string com os valores das colunas para ser adicionado ao HTML posteriormente
+	 * 
+	 * @param chart Classe com atributos para criação do Gráfico
+	 * @return String
+	 */
 	public static String buildChart(Chart chart) {
 		StringBuilder data = new StringBuilder();
 		data.append("[");

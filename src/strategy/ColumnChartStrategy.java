@@ -4,6 +4,12 @@ import chart.Builder;
 import chart.Chart;
 import chart.ChartStrategy;
 
+/**
+ * Implementação da estratégia para renderização de gráficos do tipo Coluna.
+ * Gera o gráfico, define o elemento HTML e especifica o tipo de gráfico como `ColumnChart`.
+ * 
+ * @autor Antonio S. Stramosk
+ */
 public class ColumnChartStrategy implements ChartStrategy {
 
 	@Override

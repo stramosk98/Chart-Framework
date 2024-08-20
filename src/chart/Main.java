@@ -13,7 +13,7 @@ public class Main {
 		 			{"2006", "660", "1120", "800"},
 		 			{"2007", "1030", "540", "700"}
 		 	};
-		
+		 	
 			Chart chart2 = ChartFactory.createChart("Area", matriz, ChartEnum.AreaChart);
 			System.out.println(chart2.generateHTML());
 		}

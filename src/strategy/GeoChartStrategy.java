@@ -4,6 +4,12 @@ import chart.Builder;
 import chart.Chart;
 import chart.ChartStrategy;
 
+/**
+ * Implementação da estratégia para renderização de gráficos do tipo Geográfico.
+ * Gera o gráfico, define o elemento HTML e especifica o tipo de gráfico como `GeoChart`.
+ * 
+ * @autor Antonio S. Stramosk
+ */
 public class GeoChartStrategy implements ChartStrategy {
 
 	@Override
