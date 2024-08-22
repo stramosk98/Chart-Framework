@@ -1,8 +1,8 @@
-# Framework de Gráficos
+# Biblioteca de Gráficos
 
 ## Visão Geral
 
-Este projeto é um framework em Java projetado para gerar gráficos dinâmicos em formato HTML utilizando a API do Google Charts. O framework oferece uma maneira fácil e flexível de criar diversos tipos de gráficos, permitindo que os usuários visualizem seus dados através de uma interface simples e intuitiva.
+Este projeto é uma biblioteca em Java projetado para gerar gráficos dinâmicos em formato HTML utilizando a API do Google Charts. A lib oferece uma maneira fácil e flexível de criar diversos tipos de gráficos, permitindo que os usuários visualizem seus dados através de uma interface simples e intuitiva.
 
 ## Funcionalidades
 
@@ -21,7 +21,7 @@ Este projeto é um framework em Java projetado para gerar gráficos dinâmicos e
 
 ## Exemplos
 
-Veja os exemplos de uso na pasta `test` para entender como criar e gerar gráficos com o framework.
+Veja os exemplos de uso na pasta `test` para entender como criar e gerar gráficos com a lib.
 
 ## Licença
 
